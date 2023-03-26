@@ -1,40 +1,40 @@
-.advertisement
-{
-	width:100px;
-	height:150px; 
-	border-color:black;
-	border-width:2px; 
-	background-color:gray; 
-	color:white;
-	position: absolute;
-    left: 20px;
-    top: 20px;
+.advertisement {
+  width: 100px;
+  height: 150px;
+  border-color: black;
+  border-width: 2px;
+  background-color: gray;
+  color: white;
+  position: absolute; /*position from the top left corner of the page.*/
+  left: 20px;
+  top: 20px;
 }
-.image img{
-	float: left;
-	width: 250px;
-	margin-right: 10px;	
+.image img {
+  float: left; /*float image on the left side of its container, allowing text to wrap around it */
+  width: 250px;
+  margin-right: 10px;
 }
-.logo{
-	float: left;
-	padding-right: 25px;
+.logo {
+  float: left; /*float logo on the left side of its container, allowing title to wrap around it */
+  margin-right: 25px;
 }
-.main{
-	text-align: justify;
+.main {
+  text-align: justify; /*the left and right margins are extended to be straight.*/
 }
-.header{
-	padding-bottom: 100px; 
-	margin-left: 150px;
+.header {
+  margin-bottom: 150px;
+  margin-left: 150px;
 }
-.content{
-	width: 70%;
-    margin:0 auto;
+.content {
+  width: 70%;
+  /* margin:0 auto; */ /*center content from right and left*/
+  position: relative; /*Positions content from its current location*/
+  left: 15%;
 }
 .head {
-	text-align: center;
-	margin-top: 50px;
-	
+  text-align: center; /*center the text*/
+  margin-top: 50px;
 }
-div:last-child{
-	width: 100%;
-} 
+div:last-child {
+  width: 100%;
+}
