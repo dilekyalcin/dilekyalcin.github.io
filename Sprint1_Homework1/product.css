@@ -1,0 +1,154 @@
+/*header*/
+/* used whole page */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  width: 50px; /*resized the logo*/
+}
+.logo {
+  position: absolute; /*the logo is positioned to the absolute nearest tag.*/
+  top: 2px;
+  left: 10%;
+}
+.logo h4 {
+  color: white;
+  position: relative; /*The title was positioned relative to the left and top from where it was located.*/
+  left: 40%;
+  top: 20px;
+}
+.links {
+  position: absolute; /*Links is positioned to the absolute nearest tag*/
+  top: 20px;
+  right: 75px;
+}
+.header {
+  background: #bec1c0; /*background color and background size adjusted*/
+  padding: 30px 10%; 
+}
+ul,
+li,
+a {
+  text-decoration: none; /*removed the link line.*/
+  color: white;
+}
+.navbar-links {
+  list-style: none; /*removed item marking.*/
+}
+
+.navbar-links li {
+  display: inline-block; /*links are made into inline elements.*/
+  padding: 0px 20px;
+}
+.navbar-links .link:hover { /*provides a color change when hovering over the links.*/
+  color: #91a397; 
+}
+/*main*/
+.section1 {
+  margin-top: 100px; /*for section1, space has been left at the top of the page.*/
+}
+.section1 h3 {
+  margin-left: 30%; /*for section1, title align from left and bottom*/
+  margin-bottom: 10px;
+}
+.section2 {
+  background: #dfdfde; /*for section2, title align from left and right and set background color*/
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.section2 h3 {
+  margin-left: 30%; /*for section2, title align from left and bottom*/
+  margin-bottom: 10px;
+}
+
+.main-container1 {
+  width: 35%;
+  position: relative; /*container1 was positioned relative to the left from where it was located.*/
+  left: 160px;
+}
+.main-container2 {
+  width: 35%;
+  position: relative; /*container2 was positioned relative to the left and bottom from where it was located.*/
+  left: 700px;
+  bottom: 120px;
+}
+
+.main-container1 .main-img {
+  position: relative; /*image of container1 was positioned relative to the left and bottom from where it was located*/
+  left: 640px;
+  bottom: 180px;
+}
+.main-container1 .main-img img {
+  width: 70%; 
+}
+.main-container2 .main-img {
+  position: relative; /*image of container2 was positioned relative to the top and right from where it was located*/
+  right: 500px;
+  top: 180px;
+}
+.main-container2 .main-img img {
+  width: 70%; /*set image size*/
+}
+
+.btn {
+  margin-top: 30px;
+  background: #425455;
+  color: white;
+  border: 1.5px solid; /*Border has been created on the <a> tag.*/
+  font-size: 14px;
+  padding: 12px 26px;
+  transition: 0.5s;
+  position: relative; /*buton was positioned relative to the left and top from*/
+  left: 35%;
+  top:35px
+}
+.btn:hover {
+  color: #bec1c0; /*provides a color change when hovering over the buton*/
+}
+
+/*Footer*/
+.footer{
+  background-color: #91a397;
+}
+.footer-row {
+  position: relative; /*Footer was positioned relative to the left from its current position.*/
+  left: 15px;
+  margin-right: 20px;
+ 
+}
+.footer-item1 {
+  width: 25%;
+  position: relative; /*Footer item1 was positioned relative to the left and top from its current position.*/
+  left: 15px;
+  top:70px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.footer .footer-item1 p:last-child{ /*In the about section, the last p tag was given space.*/
+  margin-top: 10px;
+}
+
+.footer-item2 {
+  position: relative; /*Footer item2 was positioned relative to the bottom from its current position.*/
+  bottom: 80px;;
+  margin-left: 40%;
+  margin-top: 15px;
+}
+.footer-item3{
+  position: absolute; /*Footer item3 is positioned according to the nearest tag by set it from the bottom and right.*/
+  right:80px;
+  bottom:45%;
+}
+.footer h3 {
+  margin-bottom: 30px; /*set title from top and bottom*/
+  margin-top: 30px;
+}
+.footer .media i {
+  margin-right: 10px; /*set between icons*/
+}
+.footer div:last-child{
+text-align: center; /*copyright is centered*/
+
+}
