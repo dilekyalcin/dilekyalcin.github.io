@@ -1,7 +1,5 @@
 $(document).ready(function () {
-  $("#birthday").click(function () {
-    $("#birthday").datepicker();
-  });
+  $("#birthday").datepicker();
 
   var languages = [
     "ActionScript",
