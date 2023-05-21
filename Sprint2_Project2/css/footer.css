@@ -1,0 +1,43 @@
+/*Footer*/
+.footer {
+    margin-top: 5%;
+    background-color: #91a397;
+  }
+  .footer-row {
+    position: relative; /*Footer was positioned relative to the left from its current position.*/
+    left: 15px;
+    margin-right: 20px;
+  }
+  .footer-item1 {
+    width: 25%;
+    position: relative; /*Footer item1 was positioned relative to the left and top from its current position.*/
+    left: 15px;
+    top: 70px;
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+  .footer .footer-item1 p:last-child{ /*In the about section, the last p tag was given space.*/
+    margin-top: 10px;
+  }
+  .footer-item2 {
+    position: relative; /*Footer item2 was positioned relative to the bottom from its current position.*/
+    bottom: 80px;
+    margin-left: 40%;
+    margin-top: 15px;
+  }
+  .footer-item3 {
+    position: absolute; /*Footer item3 is positioned according to the nearest tag by set it from the bottom and right.*/
+    right: 80px;
+    bottom: 45%;
+  }
+  .footer h3 {
+    margin-bottom: 30px; /*set title from top and bottom*/
+    margin-top: 30px;
+  }
+  .footer .media i {
+    margin-right: 10px; /*set between icons*/
+  }
+  .footer div:last-child {
+    text-align: center; /*copyright is centered*/
+  }
+  

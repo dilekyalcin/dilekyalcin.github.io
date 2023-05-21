@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo img {
+    width: 50px; /*resized the logo*/
+  }
+  .logo {
+    position: absolute; /*the logo is positioned to the absolute nearest tag.*/
+    top: 2px;
+    left: 10%;
+  }
+  .logo h4 {
+    color: white;
+    position: relative; /*The title was positioned relative to the left and top from where it was located.*/
+    left: 40%;
+    top: 20px;
+  }
+  .links {
+    position: absolute; /*Links is positioned to the absolute nearest tag*/
+    top: 20px;
+    right: 75px;
+  }
+  .header {
+    background: #bec1c0; /*background color and background size adjusted*/
+    padding: 30px 10%;
+  }
+  ul,
+  li,
+  a {
+    text-decoration: none; /*removed the link line.*/
+    color: white;
+  }
+  .navbar-links {
+    list-style: none; /*removed item marking.*/
+  }
+  
+  .navbar-links li {
+    display: inline-block; /*links are made into inline elements.*/
+    padding: 0px 20px;
+  }
+  .navbar-links .link:hover {
+    /*provides a color change when hovering over the links.*/
+    color: #91a397;
+  }

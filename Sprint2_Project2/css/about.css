@@ -1,0 +1,44 @@
+/*main*/
+main .section1 img {
+  width: 200px; /*set width of the images*/
+  border: 1px solid white;
+  height: 150px; /*set height of the images*/
+  border-radius: 50%; /*image has been made into a circle.*/
+  margin-left: 180px;
+  position: relative; /*The images were positioned from where its were located.*/
+  bottom: 70px;
+}
+main .section1 hr {
+  width: 95%; /*set line size*/
+  border: 1px solid #91a397; /*border property is given to the line and set position*/
+  margin-top: 150px;
+  margin-left: 35px;
+}
+main .section2 h1 {
+  font-size: 40px; /*set font size of title*/
+  color: #91a397;
+  text-align: center; /*title ise centered*/
+  margin-bottom: 45px;
+}
+main .section2 h2 {
+  color: #ab916c; /*subtitle has been colored*/
+  margin-bottom: 15px;
+}
+.section2 #text1 {
+  margin-top: 15px; /*The size of text 1 is adjusted and set the position from the left and top.*/
+  width: 45%;
+  margin-left: 15px;
+}
+.section2 #text2 {
+  width: 45%;
+  position: absolute; /*text2 is positioned absolute to the nearest tag.*/
+  right: 20px;
+  top: 450px;
+}
+.section2 #text2 ul {
+  margin-left: 20px; /*space is given to the list from the left and the top.*/
+  margin-top: 10px;
+}
+.section2 #text2 li {
+  color: black;
+}

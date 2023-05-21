@@ -1,0 +1,141 @@
+/*main*/
+.section1 {
+  margin-top: 150px; /*for section1, space has been left at the top of the page.*/
+}
+.section1 h3 {
+  margin-left: 30%; /*for section1, title align from left and bottom*/
+  margin-bottom: 10px;
+}
+.section2 {
+  background: #dfdfde; /*for section2, title align from left and right and set background color*/
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.section2 h3 {
+  margin-left: 30%; /*for section2, title align from left and bottom*/
+  margin-bottom: 10px;
+}
+
+.main-container1 {
+  width: 35%;
+  position: relative; /*container1 was positioned relative to the left from where it was located.*/
+  left: 160px;
+}
+.main-container2 {
+  width: 35%;
+  position: relative; /*container2 was positioned relative to the left and bottom from where it was located.*/
+  left: 700px;
+  bottom: 120px;
+}
+
+.main-container1 .main-img {
+  position: relative; /*image of container1 was positioned relative to the left and bottom from where it was located*/
+  left: 640px;
+  bottom: 180px;
+}
+.main-container1 .main-img img {
+  width: 70%;
+}
+.main-container2 .main-img {
+  position: relative; /*image of container2 was positioned relative to the top and right from where it was located*/
+  right: 500px;
+  top: 180px;
+}
+.main-container2 .main-img img {
+  width: 70%; /*set image size*/
+}
+
+#buton {
+  margin-top: 30px;
+  background: #425455;
+  color: white;
+  border: 1.5px solid; /*Border has been created on the <a> tag.*/
+  font-size: 14px;
+  padding: 12px 26px;
+  transition: 0.5s;
+  position: relative; /*buton was positioned relative to the left and top from*/
+  left: 35%;
+  top: 35px;
+}
+#buton:hover {
+  color: #bec1c0; /*provides a color change when hovering over the buton*/
+}
+.custom-popup {
+  width: 500px; /*Set the form width */
+  height: 550px;
+  padding: 30px;
+  background-color: #bec1c0;
+  color: #333;
+  position: fixed; /*keep the popup form in a fixed position inside the page*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  /*align it in the middle of the form*/
+}
+
+.product-info {
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 16px;
+}
+.customer-form h3{
+  color: #425455;
+}
+.payment-form h3 {
+  color: #425455;
+}
+.form-container {
+  position: relative; /*form-container was positioned relative from where it was located*/
+}
+.payment-form {
+  position: absolute; /*payment-form is positioned according to the nearest tag by set it from the top and left */
+  top: 2px;
+  left: 60%;
+}
+.form-container form {
+  width: 150px; /* Set the form width */
+}
+
+.form-container label {
+  display: block; /*labels behave like blocks*/
+  margin-bottom: 5px;
+}
+/*The position, size and shape of the inputs have been adjusted*/
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border-color: #425455;
+}
+.button{
+  margin-top: 10px;
+  width: 50px;
+  height: 25px;
+  margin-left: 70px;
+  background-color: #425455;
+  color: white;
+  border-radius: 2px;
+}
+input:required:invalid {
+  border: 2px solid red;
+  border-radius: 2px;
+}

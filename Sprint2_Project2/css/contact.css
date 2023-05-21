@@ -1,0 +1,72 @@
+/*main*/
+#section1 #title {
+  font-family: cursive;
+  margin-top: 50px;
+  margin-left: 270px;
+  color: #ae957d;
+}
+#section1 #text {
+  position: absolute; /*text is positioned to the absolute nearest tag*/
+  left: 30%;
+  top: 180px;
+  background-color: #aaa5a0;
+  border: 10px solid; /*Border is given around the text.*/
+  width: 35%;
+  height: 35%;
+  border-radius: 0 70px 70px 0; /*Radius is given to two corners of the border from the right side.*/
+  color: white;
+}
+#text p {
+  margin-top: 20px; /*Space was given to the text from the top and left.*/
+  padding-left: 15px;
+}
+#section1 #img1 img {
+  width: 35%; /*set image size*/
+  float: right; /*image is positioned to the right.*/
+  margin-right: 50px;
+  margin-top: 25px;
+}
+#section2 {
+  margin-left: 50px;
+  margin-top: 15px;
+}
+label {
+  width: 10%;
+  font-weight: bold;
+  color: #aaa5a0;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+input {
+  height: 30px;
+  width: 18%;
+  margin-left: 15px;
+  border-color: #ae957d;
+}
+textarea {
+  height: 50px;
+  margin-left: 15px;
+  width: 18%;
+  border-color: #ae957d;
+  border-width: 2px;
+}
+.button {
+  width: 100px;
+  height: 30px;
+  margin-left: 12%;
+  background-color: white;
+  border-color: #ae957d;
+  color: #ae957d;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #bec1c0;
+}
+input:required:invalid {
+  border: 2px solid red;
+  border-radius: 2px;
+}
+textarea:required:invalid {
+  border: 2px solid red;
+  border-radius: 2px;
+}
