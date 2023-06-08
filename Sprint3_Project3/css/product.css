@@ -19,29 +19,29 @@
 .main-container1 {
   width: 35%;
   position: relative; /*container1 was positioned relative to the left from where it was located.*/
-  left: 180px;
+  left: 160px;
 }
 .main-container2 {
   width: 35%;
   position: relative; /*container2 was positioned relative to the left and bottom from where it was located.*/
-  left: 50%;
-  bottom: 150px;
+  left: 700px;
+  bottom: 120px;
 }
 .main-container3 {
   width: 35%;
   position: relative; /*container3 was positioned relative to the left from where it was located.*/
-  left: 180px;
+  left: 160px;
 }
 .main-container4 {
   width: 35%;
   position: relative; /*container4 was positioned relative to the left and bottom from where it was located.*/
-  left: 50%;
-  bottom: 150px;
+  left: 700px;
+  bottom: 120px;
 }
 .main-container5 {
   width: 35%;
   position: relative; /*container5 was positioned relative to the left from where it was located.*/
-  left: 180px;
+  left: 160px;
 }
 
 .main-container1 .main-img {
