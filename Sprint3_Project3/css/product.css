@@ -19,7 +19,7 @@
 .main-container1 {
   width: 35%;
   position: relative; /*container1 was positioned relative to the left from where it was located.*/
-  left: 220px;
+  left: 180px;
 }
 .main-container2 {
   width: 35%;
@@ -30,7 +30,7 @@
 .main-container3 {
   width: 35%;
   position: relative; /*container3 was positioned relative to the left from where it was located.*/
-  left: 220px;
+  left: 180px;
 }
 .main-container4 {
   width: 35%;
@@ -41,7 +41,7 @@
 .main-container5 {
   width: 35%;
   position: relative; /*container5 was positioned relative to the left from where it was located.*/
-  left: 220px;
+  left: 180px;
 }
 
 .main-container1 .main-img {
