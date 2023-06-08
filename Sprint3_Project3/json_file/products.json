@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "title": "Sofa Set Furniture",
+      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis aliquid veniam voluptate cupiditate cumque ratione suscipit iusto porro, quam, dolor repellat, rerum inventore! Harum aperiam quibusdam nesciunt quae magnam a ipsum excepturi, praesentium molestiae culpa placeat necessitatibus voluptatum quaerat cupiditate unde est commodi illo, quas, eligendi omnis itaque suscipit quidem?",
+      "image": "../image/product/sofaset.png"
+    },
+    {
+      "title": "Dinner Table Furniture",
+      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis aliquid veniam voluptate cupiditate cumque ratione suscipit iusto porro, quam, dolor repellat, rerum inventore! Harum aperiam quibusdam nesciunt quae magnam a ipsum excepturi, praesentium molestiae culpa placeat necessitatibus voluptatum quaerat cupiditate unde est commodi illo, quas, eligendi omnis itaque suscipit quidem?",
+      "image": "../image/product/dinnertable.png"
+    },
+    {
+      "title": "TV Unit Furniture",
+      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis aliquid veniam voluptate cupiditate cumque ratione suscipit iusto porro, quam, dolor repellat, rerum inventore! Harum aperiam quibusdam nesciunt quae magnam a ipsum excepturi, praesentium molestiae culpa placeat necessitatibus voluptatum quaerat cupiditate unde est commodi illo, quas, eligendi omnis itaque suscipit quidem?",
+      "image": "../image/product/Tvunit.png"
+    },
+    {
+      "title": "Bedding Set Furniture",
+      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis aliquid veniam voluptate cupiditate cumque ratione suscipit iusto porro, quam, dolor repellat, rerum inventore! Harum aperiam quibusdam nesciunt quae magnam a ipsum excepturi, praesentium molestiae culpa placeat necessitatibus voluptatum quaerat cupiditate unde est commodi illo, quas, eligendi omnis itaque suscipit quidem?",
+      "image": "../image/product/bedding.png"
+    },
+    {
+      "title": "Wardrobe Set Furniture",
+      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis aliquid veniam voluptate cupiditate cumque ratione suscipit iusto porro, quam, dolor repellat, rerum inventore! Harum aperiam quibusdam nesciunt quae magnam a ipsum excepturi, praesentium molestiae culpa placeat necessitatibus voluptatum quaerat cupiditate unde est commodi illo, quas, eligendi omnis itaque suscipit quidem?",
+      "image": "../image/product/wardrobe.png"
+    }
+  ]
+}

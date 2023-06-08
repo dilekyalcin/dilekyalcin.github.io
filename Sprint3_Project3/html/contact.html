@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../jquery/jquery-ui.css" />
+    <link rel="stylesheet" href="../jquery-toast/toastr.min.css" />
+    <script src="../jquery/jquery.js"></script>
+    <script src="../jquery/jquery-ui.js"></script>
+    <script src="../jquery-toast/toastr.min.js"></script>
+    <script src="../js/contact.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Designed a navbar consisting of logo, title and pages. -->
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <img class="logo" src="../image/home/logo.png" alt="logo" />
+          <h4>YALÇIN HALI MOBİLYA</h4>
+        </div>
+        <!-- Used the listing tag on pages and link was given to direct you to the pages. -->
+        <div class="links">
+          <ul class="navbar-links">
+            <li><a href="index.html" class="link">Home</a></li>
+            <li><a href="product.html" class="link">Product</a></li>
+            <li><a href="about.html" class="link">About Us</a></li>
+            <li><a href="contact.html" class="link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--contact information of the workplace is specified using the div tag and consist image  -->
+      <div id="section1">
+        <div id="title">
+          <h2>CONTACT US</h2>
+        </div>
+        <div id="text">
+          <p>Founder: Dilek YALÇIN</p>
+          <p>Phone: 0380 524 2638</p>
+          <p>Email: mobilya_81@hotmail.com</p>
+          <p>
+            Adresses: Camikebir Neighborhood Cevat Şahin Street No:16
+            Merkez/Düzce
+          </p>
+        </div>
+        <div id="img1">
+          <img src="../image/contact/contact.jpg" alt="" />
+        </div>
+      </div>
+      <!--Form structure has been created. -->
+      <div id="section2">
+        <label for="Fullname">Full Name</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="date">Delivery Date</label><br />
+        <input type="text" id="date" name="date" /><br /><br />
+
+        <label for="email">Email Address</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter a valid email address"
+          required
+        /><br /><br />
+
+        <label for="message">Your Message</label><br />
+        <textarea id="message" name="message" required></textarea><br /><br />
+
+        <button id="sendBtn" type="button" class="button">Send</button>
+      </div>
+    </main>
+    <!-- The bottom of the page is divided into 2 parts with the div tag. The first part is also divided into 3 parts. -->
+    <footer class="footer">
+      <div class="footer-row">
+        <!--Contains information about the Furniture workplace.  -->
+        <div class="footer-item1">
+          <h3>ABOUT US</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+            enim hic soluta nostrum facere cumque?
+          </p>
+          <p>YALÇIN HALI MOBİLYA</p>
+        </div>
+        <!--Includes contact information of workplace.  -->
+        <div class="footer-item2">
+          <h3>CONTACT US</h3>
+          <p>Founder: Dilek YALÇIN</p>
+          <p>
+            Adresses: Camikebir Neighborhood Cevat Şahin Street No:16
+            Merkez/Düzce
+          </p>
+          <p>Email: mobilya_81@hotmail.com</p>
+          <p>Phone: 0380 524 2638</p>
+        </div>
+        <!--Includes the social media part.  -->
+        <div class="footer-item3">
+          <h3>FOLLOW US</h3>
+          <div class="media">
+            <i href="" class="fa-brands fa-instagram fa-2x"></i>
+            <i href="" class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Contains the copyright part. -->
+      <div class="footer-item4">
+        Copyright ©2022 All rights reserved | Block is made with by Dilek Yalçın
+      </div>
+    </footer>
+  </body>
+</html>
