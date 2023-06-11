@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="../css/product.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../jquery/jquery-ui.css" />
+    <link rel="stylesheet" href="../jquery-toast/toastr.min.css" />
+    <link rel="stylesheet" href="../jquery-popup/magnific-popup.css" />
+    <script src="../jquery/jquery.js"></script>
+    <script src="../jquery/jquery-ui.js"></script>
+    <script src="../js/product.js"></script>
+    <script src="../jquery-popup/jquery.magnific-popup.min.js"></script>
+    <script src="../jquery-popup/jquery.magnific-popup.js"></script>
+    <script src="../jquery-toast/toastr.min.js"></script>
+    <script src="../jquery-payment/jquery.payment.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Designed a navbar consisting of logo, title and pages. -->
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <img class="logo" src="../image/home/logo.png" alt="logo" />
+          <h4>YALÇIN HALI MOBİLYA</h4>
+        </div>
+        <!-- Used the listing tag on pages and link was given to direct you to the pages. -->
+        <div class="links">
+          <ul class="navbar-links">
+            <li><a href="index.html" class="link">Home</a></li>
+            <li><a href="product.html" class="link">Product</a></li>
+            <li><a href="about.html" class="link">About Us</a></li>
+            <li><a href="contact.html" class="link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- consists of five section. Each section contains the furniture category. 
+      There is a text, title, photo and button explaining each category. -->
+      <section class="section1">
+        <div class="main-container1">
+          <div class="main-content">
+            <h3 class="main-title"></h3>
+            <p class="main-text"></p>
+            <button class="btn" id="buton">Shop Now</button>
+            <div id="product-popup" class="white-popup mfp-hide custom-popup">
+              <div class="product-info">
+                <img class="product-image" src="../image/product/sofaset.png" alt="Ürün Resmi">
+                <h2 class="product-title">Sofa Set</h2>
+                <p class="product-price">$499</p>
+              </div>
+          
+              <div class="form-container">
+                <div class="customer-form">
+                  <h3>Personal Information</h3>
+                  <form id="customer-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+          
+                    <label for="email">Email Adresses:</label>
+                    <input type="email" id="email" name="email">
+          
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+          
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone">
+          
+                  </form>
+                </div>
+
+                <div class="payment-form">
+                  <h3>Payment information</h3>
+                  <form id="payment-form">
+                    <label for="card-number">Card Number:</label>
+                    <input type="tel" id="cc-number" class="cc-number" name="cc-number" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" required>
+                    <!-- <input id="cc-number" type="tel" class="cc-number" pattern="\d*" x-autocompletetype="cc-number" placeholder="•••• •••• •••• ••••" required /> -->
+
+                    <label for="card-holder">Card Owner:</label>
+                    <input type="text" id="card-holder" name="card-holder" required />
+          
+                    <label for="expiry-date">Expiration Date:</label>
+                    <input type="tel" id="cc-exp" class="cc-exp" name="cc-exp" autocomplete="cc-exp" placeholder="•• / ••" required />
+          
+                    <label for="cvv">CVV:</label>
+                    <input type="tel" id="cc-cvv" name="cvv" class="cc-cvv" autocomplete="off" placeholder="•••" required />
+          
+                    <button id="submit" type="button" class="button">BUY</button>
+                  </form>
+                </div>
+          
+              </div>
+              </div>
+          </div>
+          <div class="main-img">
+            <img src="" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="section2">
+        <div class="main-container2">
+          <div class="main-img">
+            <img src="" alt="" />
+          </div>
+          <div class="main-content">
+            <h3 class="main-title"></h3>
+            <p class="main-text"></p>
+            <button class="btn1" id="buton">Shop Now</button>
+            <div id="product-popup1" class="white-popup mfp-hide custom-popup">
+              <div class="product-info">
+                <img class="product-image" src="../image/product/dinnertable.png" alt="Ürün Resmi">
+                <h2 class="product-title">Dinner Table</h2>
+                <p class="product-price">$300</p>
+              </div>
+              <div class="form-container">
+                  <div class="customer-form">
+                    <h3>Personal Information</h3>
+                    <form id="customer-form">
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="name">
+            
+                      <label for="email">Email Adresses:</label>
+                      <input type="email" id="email" name="email">
+            
+                      <label for="address">Address:</label>
+                      <input type="text" id="address" name="address">
+            
+                      <label for="phone">Phone Number:</label>
+                      <input type="text" id="phone" name="phone">
+            
+                    </form>
+                  </div>
+  
+
+                <div class="payment-form">
+                  <h3>Payment information</h3>
+                  <form id="payment-form">
+                    <label for="card-number">Card Number:</label>
+                    <input type="tel" id="cc-number" class="cc-number" name="cc-number" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" required>
+                    <!-- <input id="cc-number" type="tel" class="cc-number" pattern="\d*" x-autocompletetype="cc-number" placeholder="•••• •••• •••• ••••" required /> -->
+
+                    <label for="card-holder">Card Owner:</label>
+                    <input type="text" id="card-holder" name="card-holder" required />
+          
+                    <label for="expiry-date">Expiration Date:</label>
+                    <input type="tel" id="cc-exp" class="cc-exp" name="cc-exp" autocomplete="cc-exp" placeholder="•• / ••" required />
+          
+                    <label for="cvv">CVV:</label>
+                    <input type="tel" id="cc-cvv" name="cvv" class="cc-cvv" autocomplete="off" placeholder="•••" required />
+          
+                    <button id="submit1" type="button" class="button">BUY</button>
+                  </form>
+                </div>
+              </div>
+          
+          </div>
+        </div>
+      </section>
+      <section class="section1">
+        <div class="main-container3">
+          <div class="main-content">
+            <h3 class="main-title"></h3>
+            <p class="main-text"></p>
+            <button class="btn2" id="buton">Shop Now</button>
+            <div id="product-popup2" class="white-popup mfp-hide custom-popup">
+              <div class="product-info">
+                <img class="product-image" src="../image/product/Tvunit.png" alt="Ürün Resmi">
+                <h2 class="product-title">TV Unit Set</h2>
+                <p class="product-price">$250</p>
+              </div>
+              <div class="form-container">
+                <div class="customer-form">
+                  <h3>Personal Information</h3>
+                  <form id="customer-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+          
+                    <label for="email">Email Adresses:</label>
+                    <input type="email" id="email" name="email">
+          
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+          
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone">
+          
+                  </form>
+                </div>
+
+                <div class="payment-form">
+                  <h3>Payment information</h3>
+                  <form id="payment-form">
+                    <label for="card-number">Card Number:</label>
+                    <input type="tel" id="cc-number" class="cc-number" name="cc-number" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" required>
+                    <!-- <input id="cc-number" type="tel" class="cc-number" pattern="\d*" x-autocompletetype="cc-number" placeholder="•••• •••• •••• ••••" required /> -->
+
+                    <label for="card-holder">Card Owner:</label>
+                    <input type="text" id="card-holder" name="card-holder" required />
+          
+                    <label for="expiry-date">Expiration Date:</label>
+                    <input type="tel" id="cc-exp" class="cc-exp" name="cc-exp" autocomplete="cc-exp" placeholder="•• / ••" required />
+          
+                    <label for="cvv">CVV:</label>
+                    <input type="tel" id="cc-cvv" name="cvv" class="cc-cvv" autocomplete="off" placeholder="•••" required />
+
+                    <button id="submit2" type="button" class="button">BUY</button>
+                  </form>
+                </div>
+              </div>
+          
+          </div>
+          <div class="main-img">
+            <img src="" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="section2">
+        <div class="main-container4">
+          <div class="main-img">
+            <img src="" alt="" />
+          </div>
+          <div class="main-content">
+            <h3 class="main-title"></h3>
+            <p class="main-text"></p>
+            <button class="btn3" id="buton">Shop Now</button>
+            <div id="product-popup3" class="white-popup mfp-hide custom-popup">
+              <div class="product-info">
+                <img class="product-image" src="../image/product/bedding.png" alt="Ürün Resmi">
+                <h2 class="product-title">Bedding Set</h2>
+                <p class="product-price">$450</p>
+              </div>
+              <div class="form-container">
+                <div class="customer-form">
+                  <h3>Personal Information</h3>
+                  <form id="customer-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+          
+                    <label for="email">Email Adresses:</label>
+                    <input type="email" id="email" name="email">
+          
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+          
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone">
+          
+                  </form>
+                </div>
+
+                <div class="payment-form">
+                  <h3>Payment information</h3>
+                  <form id="payment-form">
+                    <label for="card-number">Card Number:</label>
+                    <input type="tel" id="cc-number" class="cc-number" name="cc-number" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" required>
+                    <!-- <input id="cc-number" type="tel" class="cc-number" pattern="\d*" x-autocompletetype="cc-number" placeholder="•••• •••• •••• ••••" required /> -->
+
+                    <label for="card-holder">Card Owner:</label>
+                    <input type="text" id="card-holder" name="card-holder" required />
+          
+                    <label for="expiry-date">Expiration Date:</label>
+                    <input type="tel" id="cc-exp" class="cc-exp" name="cc-exp" autocomplete="cc-exp" placeholder="•• / ••" required />
+          
+                    <label for="cvv">CVV:</label>
+                    <input type="tel" id="cc-cvv" name="cvv" class="cc-cvv" autocomplete="off" placeholder="•••" required />
+          
+                    <button id="submit3" type="button" class="button">BUY</button>
+                  </form>
+                </div>
+              </div>
+          
+          </div>
+        </div>
+      </section>
+      <section class="section1">
+        <div class="main-container5">
+          <div class="main-content">
+            <h3 class="main-title"></h3>
+            <p class="main-text"></p>
+            <button class="btn4" id="buton">Shop Now</button>
+            <div id="product-popup4" class="white-popup mfp-hide custom-popup">
+              <div class="product-info">
+                <img class="product-image" src="../image/product/wardrobe.png" alt="Ürün Resmi">
+                <h2 class="product-title">Wardrobe Set</h2>
+                <p class="product-price">$350</p>
+              </div>
+              <div class="form-container">
+                <div class="customer-form">
+                    <h3>Personal Information</h3>
+                    <form id="customer-form">
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="name">
+            
+                      <label for="email">Email Adresses:</label>
+                      <input type="email" id="email" name="email">
+            
+                      <label for="address">Address:</label>
+                      <input type="text" id="address" name="address">
+            
+                      <label for="phone">Phone Number:</label>
+                      <input type="text" id="phone" name="phone">
+            
+                    </form>
+                  </div>
+                <div class="payment-form">
+                  <h3>Payment information</h3>
+                  <form id="payment-form">
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="cc-number" class="cc-number" name="cc-number" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" required>
+                    <!-- <input id="cc-number" type="tel" class="cc-number" pattern="\d*" x-autocompletetype="cc-number" placeholder="•••• •••• •••• ••••" required /> -->
+
+                    <label for="card-holder">Card Owner:</label>
+                    <input type="text" id="card-holder" name="card-holder" required />
+          
+                    <label for="expiry-date">Expiration Date:</label>
+                    <input type="text" id="cc-exp" class="cc-exp" name="cc-exp" autocomplete="cc-exp" placeholder="•• / ••" required />
+          
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cc-cvv" name="cvv" class="cc-cvv" autocomplete="off" placeholder="•••" required />
+          
+                    <button id="submit4" type="button" class="button">BUY</button>
+                  </form>
+                </div>
+              </div>
+          </div>
+          <div class="main-img">
+            <img src="" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- The bottom of the page is divided into 2 parts with the div tag. The first part is also divided into 3 parts. -->
+    <footer class="footer">
+      <div class="footer-row">
+        <!--Contains information about the Furniture workplace.  -->
+        <div class="footer-item1">
+          <h3>ABOUT US</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+            enim hic soluta nostrum facere cumque?
+          </p>
+          <p>YALÇIN HALI MOBİLYA</p>
+        </div>
+        <!--Includes contact information of workplace.  -->
+        <div class="footer-item2">
+          <h3>CONTACT US</h3>
+          <p>Founder: Dilek YALÇIN</p>
+          <p>
+            Adresses: Camikebir Neighborhood Cevat Şahin Street No:16
+            Merkez/Düzce
+          </p>
+          <p>Email: mobilya_81@hotmail.com</p>
+          <p>Phone: 0380 524 2638</p>
+        </div>
+        <!--Includes the social media part.  -->
+        <div class="footer-item3">
+          <h3>FOLLOW US</h3>
+          <div class="media">
+            <i href="" class="fa-brands fa-instagram fa-2x"></i>
+            <i href="" class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Contains the copyright part. -->
+      <div class="footer-item4">
+        Copyright ©2022 All rights reserved | Block is made with by Dilek Yalçın
+      </div>
+    </footer>
+  </body>
+</html>
